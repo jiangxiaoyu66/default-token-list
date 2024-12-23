@@ -1,8 +1,8 @@
 {
-  "name": "Unknown List",
+  "name": "Ubeswap Experimental",
   "logoURI": "https://raw.githubusercontent.com/jiangxiaoyu66/default-token-list/master/logo.svg",
-  "keywords": ["dbcswap", "defi"],
-  "timestamp": "2024-12-23T08:00:12.990Z",
+  "keywords": ["celo", "ubeswap", "defi"],
+  "timestamp": "2024-12-23T07:47:07.565Z",
   "tokens": [
     {
       "address": "0xC260ed583545d036ed99AA5C76583a99B7E85D26",

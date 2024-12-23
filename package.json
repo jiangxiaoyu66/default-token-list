@@ -1,9 +1,12 @@
 {
-  "name": "@ubeswap/default-token-list",
+  "name": "dbcswap-default-token-list",
   "version": "4.1.70",
-  "description": "Ubeswap default token list",
-  "main": "ubeswap.token-list.json",
-  "repository": "git@github.com:ubeswap/default-token-list.git",
+  "description": "Dbcswap default token list",
+  "main": "dbcswap.token-list.json",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jiangxiaoyu66/default-token-list.git"
+  },
   "author": "Ian Macalinao <ian@ubeswap.org>",
   "license": "MIT",
   "devDependencies": {
@@ -33,8 +36,8 @@
     "prepare": "husky install"
   },
   "files": [
-    "ubeswap.token-list.json",
-    "ubeswap-experimental.token-list.json"
+    "dbcswap.token-list.json",
+    "dbcswap-experimental.token-list.json"
   ],
   "prettier": {},
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"

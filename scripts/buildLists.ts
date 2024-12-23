@@ -9,7 +9,7 @@ import { requireOrNull } from "./utils/requireOrNull";
 const version = packageJSON.version.split(".");
 
 const LOGO_URI_BASE =
-  "https://raw.githubusercontent.com/ubeswap/default-token-list/master";
+  "https://raw.githubusercontent.com/jiangxiaoyu66/default-token-list/master";
 
 const makeTokenList = (
   previousTokenList: TokenList | null,
@@ -26,7 +26,7 @@ const makeTokenList = (
   return {
     name: previousTokenList?.name ?? "Unknown List",
     logoURI: `${LOGO_URI_BASE}/logo.svg`,
-    keywords: ["celo", "ubeswap", "defi"],
+    keywords: ["dbcswap", "defi"],
     timestamp,
     tokens,
     version: {
